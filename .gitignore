@@ -1,0 +1,55 @@
+### ===============================
+### Java / Maven / Gradle
+### ===============================
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+.kotlin
+
+### ===============================
+### Frontend (React / Vite)
+### ===============================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+### ===============================
+### IntelliJ IDEA
+### ===============================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### ===============================
+### Eclipse
+### ===============================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### ===============================
+### NetBeans
+### ===============================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### ===============================
+### VS Code
+### ===============================
+.vscode/
+
+### ===============================
+### Mac OS
+### ===============================
+.DS_Store
